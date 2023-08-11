@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+body{
+    background-color: #144c8f;
+}
+
+/* csss */
+h1{
+    text-align: center;
+}
+form{
+    /* background-color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    width: 500px;
+    margin: 150px 360px; */
+
+    width: 60%;
+    height: 50%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    /* text-align: center; */
+    border-radius: 20px ;
+}
+button{
+    width: 100%; 
+    text-align: center;
+    background-color: #144c8f;
+    color: #fff;
+    border-radius: 2px;
+    border-radius: 8px;
+    height: 31px;
+}
+.text-field
+{
+    width: 100%;
+}

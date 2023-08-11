@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <form method="post">
+        
+        <h1>Create Account</h1>
+
+          <div class="container">
+
+            <label for="uname"><b>Name</b></label><br>
+            <input class = "text-field" type="name" placeholder="Enter Name" name="psw" required><br>
+            <br>
+            
+            <label for="uname"><b>Email</b></label><br>
+            <input class = "text-field" type="email" placeholder="Enter Username" name="uname" required ><br>
+            <br>
+
+            <label for="psw"><b>Password</b></label><br>
+            <input class = "text-field" type="password" placeholder="Enter Password" name="psw" required><br>
+            <br>
+
+            
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label><br>
+            <button type="submit">Sign up</button><br><br> 
+          </div>
+          <div class="container" style="background-color:#fff; text-align:center ">
+            <span class="psw">Already have an account ?<a href="login.htm">Log in </a></span>
+          </div>
+        </form>
+</body>
+</html>
